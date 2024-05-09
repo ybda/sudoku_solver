@@ -3,4 +3,7 @@ project(sudoku_solver C)
 
 set(CMAKE_C_STANDARD 17)
 
-add_executable(sudoku_solver main.c)
+add_executable(sudoku_solver
+        main.c
+        sudoku_solver.c
+        sudoku_solver.h)
